@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background: url(https://i.redd.it/cherry-blossom-1920x1080-v0-adfe3rrihdaa1.png?s=3b6e9eb1c0b565162b4515aae12557027996efad);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: #fff;
+}
+
+.contenier {
+    margin-top: 150px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.623);
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+    height: 650px;
+    transition: 0.5s;
+}
+
+.contenier:hover{
+    border: 2px solid #fff;
+    transition: 0.5s;
+}
+
+.img-main {
+    border-radius: 50%;
+}
+
+h3 {
+    color: #fff;
+}
+
+.info {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.info a {
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: black;
+    margin-left: 1.5rem;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+    display: flex;
+    padding-top: 10px;
+}
+
+.info a:hover {
+    background-color: rgba(0, 0, 0, 0.438);
+    transition: 0.5s;
+}
+
+.icon {
+    border-radius: 10px;
+}
