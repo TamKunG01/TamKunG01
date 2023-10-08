@@ -6,63 +6,125 @@
 }
 
 body {
-    background: url(https://i.redd.it/cherry-blossom-1920x1080-v0-adfe3rrihdaa1.png?s=3b6e9eb1c0b565162b4515aae12557027996efad);
+    background: url(https://cdnb.artstation.com/p/assets/images/images/032/732/629/large/chuang-ma-highresscreenshot00054.jpg?1607322235);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-main {
+.main-nav {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.623);
+    border-radius: 10px;
+    border-radius: 50px;
+    width: 1000px;
+}
+
+.logo {
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 3px;
+}
+
+.logo img {
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 1rem;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    border: 2px solid rgba(255, 255, 255, 0.671);
+    padding: 5px 10px;
+    transition: 0.5s;
+    border-radius: 10px;
 }
 
 h2 {
-    color: #fff;
+    color: #000;
+    letter-spacing: 2px;
 }
 
 .contenier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
     margin-top: 150px;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.623);
     border-radius: 10px;
     text-align: center;
     padding: 25px;
     height: 650px;
     transition: 0.5s;
+    width: 500px;
 }
 
-.contenier:hover{
+.content:hover{
     border: 2px solid #fff;
     transition: 0.5s;
 }
 
 .img-main {
     border-radius: 50%;
+    border: 3px solid #000;
 }
 
 h3 {
-    color: #fff;
+    color: #000;
+    letter-spacing: 1px;
+    height: 0px;
 }
 
 .info {
     margin-top: 45px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .info a {
     justify-content: space-between;
-    margin-top: 10px;
+    width: 350px;
+    margin-top: 20px;
     color: #fff;
     text-decoration: none;
     background-color: black;
     margin-left: 1.5rem;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
     transition: 0.5s;
     display: flex;
     padding-top: 10px;
+    box-shadow: 10px 10px rgba(255, 0, 0, 0.822);
 }
 
 .info a:hover {
@@ -71,5 +133,22 @@ h3 {
 }
 
 .icon {
-    border-radius: 10px;
+    border-radius: 50%;
+    border: 2px solid #dff;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    padding: 5px;
+    transition: 0.5s;
+}
+
+h4 {
+    margin-top: 50px;
+    color: #000;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
 }
